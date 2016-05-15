@@ -1,0 +1,38 @@
+{
+  "name": "Smart Answers",
+  "website": "https://www.gov.uk/",
+  "repository": "https://github.com/alphagov/smart-answers",
+  "success_url": "/marriage-abroad",
+  "env": {
+    "GOVUK_APP_DOMAIN": {
+      "description": "Foo.",
+      "value": "integration.publishing.service.gov.uk"
+    },
+    "PLEK_SERVICE_CONTENTAPI_URI": {
+      "description": "Bar.",
+      "value": "https://www.gov.uk/api"
+    },
+    "PLEK_SERVICE_STATIC_URI": {
+      "description": "Baz.",
+      "value": "https://assets-origin.integration.publishing.service.gov.uk/"
+    },
+    "RUNNING_ON_HEROKU": {
+      "description": "Baz.",
+      "value": "true"
+    },
+    "EXPOSE_GOVSPEAK": {
+      "description": "Baz.",
+      "value": "true"
+    },
+    "ERRBIT_ENV": {
+      "description": "Baz.",
+      "value": "integration"
+    }
+  },
+  "image": "heroku/ruby",
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
