@@ -267,6 +267,14 @@
   - taiwan
   :next_node: :oru_result
   :outcome_node: true
+- :current_node: :which_country_are_you_in_now?
+  :responses:
+  - overseas
+  - libya
+  - another_country
+  - rwanda
+  :next_node: :oru_result
+  :outcome_node: true
 - :current_node: :where_are_you_now?
   :responses:
   - overseas
@@ -390,6 +398,14 @@
   - taiwan
   :next_node: :oru_result
   :outcome_node: true
+- :current_node: :which_country_are_you_in_now?
+  :responses:
+  - overseas
+  - north-korea
+  - another_country
+  - rwanda
+  :next_node: :oru_result
+  :outcome_node: true
 - :current_node: :where_are_you_now?
   :responses:
   - overseas
@@ -513,10 +529,24 @@
   - taiwan
   :next_node: :oru_result
   :outcome_node: true
+- :current_node: :which_country_are_you_in_now?
+  :responses:
+  - overseas
+  - papua-new-guinea
+  - another_country
+  - rwanda
+  :next_node: :oru_result
+  :outcome_node: true
 - :current_node: :where_are_you_now?
   :responses:
   - overseas
   - papua-new-guinea
   - in_the_uk
   :next_node: :oru_result
+  :outcome_node: true
+- :current_node: :which_country?
+  :responses:
+  - overseas
+  - rwanda
+  :next_node: :commonwealth_result
   :outcome_node: true
