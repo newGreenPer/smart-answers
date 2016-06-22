@@ -107,8 +107,16 @@ module SmartAnswer::Calculators
       @passing_through_uk_border_control_answer == 'yes'
     end
 
-    def travelling_to_cta?
-      @travelling_to_cta_answer == 'yes'
+    def travelling_to_channel_islands_or_isle_of_man?
+      @travelling_to_cta_answer == 'channel_islands_or_isle_of_man'
+    end
+
+    def travelling_to_ireland?
+      @travelling_to_cta_answer == 'republic_of_ireland'
+    end
+
+    def travelling_to_elsewhere?
+      @travelling_to_cta_answer == 'somewhere_else'
     end
 
     EXCLUDE_COUNTRIES = %w(american-samoa british-antarctic-territory british-indian-ocean-territory french-guiana french-polynesia gibraltar guadeloupe holy-see martinique mayotte new-caledonia reunion st-pierre-and-miquelon the-occupied-palestinian-territories wallis-and-futuna western-sahara)

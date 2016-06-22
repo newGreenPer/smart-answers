@@ -354,16 +354,46 @@ module SmartAnswer
       end
 
       context '#travelling_to_cta?' do
-        should 'return true if travelling_to_cta_answer is "yes"' do
-          calculator = UkVisaCalculator.new
-          calculator.travelling_to_cta_answer = 'yes'
-          assert calculator.travelling_to_cta?
+        context '#travelling_to_channel_islands_or_isle_of_man?' do
+          should 'return true if travelling_to_cta_answer is "channel_islands_or_isle_of_man"' do
+            calculator = UkVisaCalculator.new
+            calculator.travelling_to_cta_answer = 'channel_islands_or_isle_of_man'
+            assert calculator.travelling_to_channel_islands_or_isle_of_man?
+          end
+
+          should 'return false if travelling_to_cta_answer is not equal to "channel_islands_or_isle_of_man"' do
+            calculator = UkVisaCalculator.new
+            calculator.travelling_to_cta_answer = 'something_else'
+            refute calculator.travelling_to_channel_islands_or_isle_of_man?
+          end
         end
 
-        should 'return false if travelling_to_cta_answer is "no"' do
-          calculator = UkVisaCalculator.new
-          calculator.travelling_to_cta_answer = 'no'
-          refute calculator.travelling_to_cta?
+        context '#travelling_to_ireland?' do
+          should 'return true if travelling_to_cta_answer is "republic_of_ireland"' do
+            calculator = UkVisaCalculator.new
+            calculator.travelling_to_cta_answer = 'republic_of_ireland'
+            assert calculator.travelling_to_ireland?
+          end
+
+          should 'return false if travelling_to_cta_answer is "republic_of_ireland"' do
+            calculator = UkVisaCalculator.new
+            calculator.travelling_to_cta_answer = 'something_else'
+            refute calculator.travelling_to_ireland?
+          end
+        end
+
+        context '#travelling_to_elsewhere?' do
+          should 'return true if travelling_to_cta_answer is "somewhere_else"' do
+            calculator = UkVisaCalculator.new
+            calculator.travelling_to_cta_answer = 'somewhere_else'
+            assert calculator.travelling_to_elsewhere?
+          end
+
+          should 'return false if travelling_to_cta_answer is "somewhere_else"' do
+            calculator = UkVisaCalculator.new
+            calculator.travelling_to_cta_answer = 'something_else'
+            refute calculator.travelling_to_elsewhere?
+          end
         end
       end
     end
