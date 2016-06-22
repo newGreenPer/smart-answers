@@ -27,8 +27,8 @@ class CheckUkVisaTest < ActiveSupport::TestCase
         add_response 'yes'
       end
 
-      should "go to outcome_transit_to_the_cta" do
-        assert_current_node :outcome_transit_to_the_cta
+      should "go to outcome_transit_to_the_republic_of_ireland" do
+        assert_current_node :outcome_transit_to_the_republic_of_ireland
       end
     end
 
@@ -37,7 +37,7 @@ class CheckUkVisaTest < ActiveSupport::TestCase
         add_response 'no'
       end
 
-      should "go to outcome_transit_to_the_cta" do
+      should "go to outcome_transit_to_the_republic_of_ireland" do
         assert_current_node :passing_through_uk_border_control?
       end
     end

@@ -132,8 +132,9 @@ module SmartAnswer
 
       #Q2a
       multiple_choice :travelling_to_cta? do
-        option :yes
-        option :no
+        option :channel_islands_or_isle_of_man
+        option :republic_of_ireland
+        option :somewhere_else
 
         on_response do |response|
           calculator.travelling_to_cta_answer = response
@@ -141,7 +142,7 @@ module SmartAnswer
 
         next_node do
           if calculator.travelling_to_cta?
-            next outcome(:outcome_transit_to_the_cta)
+            next outcome(:outcome_transit_to_the_republic_of_ireland)
           else
             next question(:passing_through_uk_border_control?)
           end
@@ -231,7 +232,7 @@ module SmartAnswer
       end
 
       outcome :outcome_diplomatic_business
-      outcome :outcome_transit_to_the_cta
+      outcome :outcome_transit_to_the_republic_of_ireland
       outcome :outcome_joining_family_m
       outcome :outcome_joining_family_nvn
       outcome :outcome_joining_family_y

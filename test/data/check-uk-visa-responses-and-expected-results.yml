@@ -61,7 +61,7 @@
   - afghanistan
   - transit
   - 'yes'
-  :next_node: :outcome_transit_to_the_cta
+  :next_node: :outcome_transit_to_the_republic_of_ireland
   :outcome_node: true
 - :current_node: :travelling_to_cta?
   :responses:
@@ -357,7 +357,7 @@
   - china
   - transit
   - 'yes'
-  :next_node: :outcome_transit_to_the_cta
+  :next_node: :outcome_transit_to_the_republic_of_ireland
   :outcome_node: true
 - :current_node: :travelling_to_cta?
   :responses:
@@ -595,7 +595,7 @@
   - provisional-passport
   - transit
   - 'yes'
-  :next_node: :outcome_transit_to_the_cta
+  :next_node: :outcome_transit_to_the_republic_of_ireland
   :outcome_node: true
 - :current_node: :travelling_to_cta?
   :responses:
@@ -720,7 +720,7 @@
   - kuwait
   - transit
   - 'yes'
-  :next_node: :outcome_transit_to_the_cta
+  :next_node: :outcome_transit_to_the_republic_of_ireland
   :outcome_node: true
 - :current_node: :travelling_to_cta?
   :responses:
@@ -837,7 +837,7 @@
   - oman
   - transit
   - 'yes'
-  :next_node: :outcome_transit_to_the_cta
+  :next_node: :outcome_transit_to_the_republic_of_ireland
   :outcome_node: true
 - :current_node: :travelling_to_cta?
   :responses:
@@ -959,7 +959,7 @@
   - stateless-or-refugee
   - transit
   - 'yes'
-  :next_node: :outcome_transit_to_the_cta
+  :next_node: :outcome_transit_to_the_republic_of_ireland
   :outcome_node: true
 - :current_node: :travelling_to_cta?
   :responses:
@@ -1081,7 +1081,7 @@
   - syria
   - transit
   - 'yes'
-  :next_node: :outcome_transit_to_the_cta
+  :next_node: :outcome_transit_to_the_republic_of_ireland
   :outcome_node: true
 - :current_node: :travelling_to_cta?
   :responses:
@@ -1198,7 +1198,7 @@
   - taiwan
   - transit
   - 'yes'
-  :next_node: :outcome_transit_to_the_cta
+  :next_node: :outcome_transit_to_the_republic_of_ireland
   :outcome_node: true
 - :current_node: :travelling_to_cta?
   :responses:
@@ -1315,7 +1315,7 @@
   - turkey
   - transit
   - 'yes'
-  :next_node: :outcome_transit_to_the_cta
+  :next_node: :outcome_transit_to_the_republic_of_ireland
   :outcome_node: true
 - :current_node: :travelling_to_cta?
   :responses:
@@ -1432,7 +1432,7 @@
   - venezuela
   - transit
   - 'yes'
-  :next_node: :outcome_transit_to_the_cta
+  :next_node: :outcome_transit_to_the_republic_of_ireland
   :outcome_node: true
 - :current_node: :travelling_to_cta?
   :responses:
