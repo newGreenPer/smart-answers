@@ -27,7 +27,7 @@ lib/smart_answer_flows/check-uk-visa/outcomes/outcome_transit_not_leaving_airpor
 lib/smart_answer_flows/check-uk-visa/outcomes/outcome_transit_refugee_not_leaving_airport.govspeak.erb: a344b0c62367eac3e00d048563b636dd
 lib/smart_answer_flows/check-uk-visa/outcomes/outcome_transit_taiwan.govspeak.erb: 72a43a01e16942fd7ffce864e5b1bdee
 lib/smart_answer_flows/check-uk-visa/outcomes/outcome_transit_taiwan_through_border_control.govspeak.erb: ee519450526cc90ead79ee29021f04a6
-lib/smart_answer_flows/check-uk-visa/outcomes/outcome_transit_to_the_republic_of_ireland.govspeak.erb: f1d3303afd7c26a6a82d838f339b81ad
+lib/smart_answer_flows/check-uk-visa/outcomes/outcome_transit_to_the_republic_of_ireland.govspeak.erb: 84c1e2abfaa3b949adf352e48ea0bcd7
 lib/smart_answer_flows/check-uk-visa/outcomes/outcome_transit_venezuela.govspeak.erb: bae2c1566964317ca3d92b5b1d8a21f3
 lib/smart_answer_flows/check-uk-visa/outcomes/outcome_visit_waiver.govspeak.erb: 02d5c593f767fe5201de2afe81e65963
 lib/smart_answer_flows/check-uk-visa/outcomes/outcome_work_m.govspeak.erb: 7502173e6c4f65cb85ca5559c7ebb2e6
@@ -37,7 +37,7 @@ lib/smart_answer_flows/check-uk-visa/outcomes/outcome_work_y.govspeak.erb: 08ec2
 lib/smart_answer_flows/check-uk-visa/questions/_purpose_of_visit_options.govspeak.erb: 89f9f24b3124b88d7abaa214a78316fd
 lib/smart_answer_flows/check-uk-visa/questions/channel_islands_or_isle_of_man.govspeak.erb: 7b577f0078f74be4a53fd06eec785d17
 lib/smart_answer_flows/check-uk-visa/questions/israeli_document_type.govspeak.erb: 6e6ea79788922c6e4a76f87cac040193
-lib/smart_answer_flows/check-uk-visa/questions/passing_through_uk_border_control.govspeak.erb: 3698328b3c6e523c8591305a23c8b023
+lib/smart_answer_flows/check-uk-visa/questions/passing_through_uk_border_control.govspeak.erb: 29d32f60780db63b63eb2f7cd10ec2e6
 lib/smart_answer_flows/check-uk-visa/questions/purpose_of_visit.govspeak.erb: 0b1ff46881dc61e9850ed821b21a03c2
 lib/smart_answer_flows/check-uk-visa/questions/staying_for_how_long.govspeak.erb: 3d00e24db2c951d6853808b7c1c33ed4
 lib/smart_answer_flows/check-uk-visa/questions/travelling_to_cta.govspeak.erb: 1be958b6da2caa148849a26b64a01cc3
