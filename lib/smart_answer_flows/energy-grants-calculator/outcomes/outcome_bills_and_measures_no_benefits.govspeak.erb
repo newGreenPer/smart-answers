@@ -8,6 +8,10 @@
 
 <% content_for :body do %>
   <% if calculator.under_green_deal? %>
+    <% if (calculator.eligible_for_winter_fuel_payment? or calculator.eligible_for_cold_weather_payment?) %>
+      <%= render partial: 'header_green_deal.govspeak.erb' %>
+      <%= render partial: 'opt_eco_help.govspeak.erb' %>
+    <% end %>
     <%= render partial: 'callout_under_green_deal.govspeak.erb' %>
   <% end %>
   <% if calculator.both_help? %>
